@@ -1,0 +1,22 @@
+name: "Seek and Destroy"
+on:
+  pull_request:
+    # Sequence of patterns matched against refs/heads
+    branches:
+      - main
+
+jobs:
+  bash:
+    runs-on: self-hosted
+    steps:
+      - name: Sing
+        run: |
+          echo "Alright!"
+          echo "Running, on our way, hiding"
+          echo "You will pay dying"
+          echo "One thousand deaths"
+          echo "Running, on our way, hiding"
+          echo "You will pay dying"
+          echo "One thousand deaths"
+          echo "Searching!"
+          echo "Seek and destroy!"
