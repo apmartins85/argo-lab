@@ -10,7 +10,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/apmartins85/argocd-example-apps.git
-    targetRevision: main
+    targetRevision: HEAD
     path: helm-guestbook
   destination: 
     server: https://kubernetes.default.svc
