@@ -10,11 +10,11 @@ spec:
   project: default
   source:
     repoURL: https://github.com/apmartins85/argocd-example-apps.git
-    targetRevision: HEAD
+    targetRevision: main
     path: helm-guestbook
   destination: 
     server: https://kubernetes.default.svc
-    namespace: myapp
+    namespace: argo-application
   syncPolicy:
     syncOptions:
     - CreateNamespace=true
