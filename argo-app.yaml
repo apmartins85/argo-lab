@@ -3,6 +3,7 @@ kind: Application
 metadata:
   annotations:
     argocd/app-name: argo-application
+    backstage.io/kubernetes-id: argo-application
   name: argo-application
   namespace: argocd
 spec:
